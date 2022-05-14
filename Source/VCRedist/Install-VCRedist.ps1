@@ -13,14 +13,8 @@
     .\Install-VisualCRedist.ps1 -URL "https://<AzureStorageBlobUrl>"
 
 .NOTES
-    FileName:    Install-VisualCRedist.ps1
-    Author:      Nickolaj Andersen
-    Contact:     @NickolajA
-    Created:     2020-02-05
-    Updated:     2020-02-05
-
-    Version history:
-    1.0.0 - (2020-02-05) Script created
+    FileName:        Install-VisualCRedist.ps1
+    Original Author: Nickolaj Andersen
 #>
 [CmdletBinding(SupportsShouldProcess = $true)]
 param(
